@@ -1,4 +1,5 @@
-Deployment Link - https://ghl-frontend.vercel.app/
+Appointment Booking Page - https://ghl-frontend.vercel.app/
+View Events Page - https://ghl-frontend.vercel.app/events
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
