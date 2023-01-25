@@ -37,7 +37,9 @@ export default function Form({ }: Props) {
   const fetchSlotsWithDate = async () => {
     setSlotsLoading(true);
     const newSlots = await fetchSlots(date, duration, timezone);
-    setSlots(newSlots);
+    if (newSlots) {
+      setSlots(newSlots);
+    }
     setSlot('');
     setSlotsLoading(false);
   }

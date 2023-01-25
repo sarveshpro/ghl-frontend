@@ -22,7 +22,9 @@ export default function EventList({ }: Props) {
   const handleFetchEvents = async () => {
     setLoading(true);
     const response = await fetchEvents(startDate, endDate);
-    setEvents(response);
+    if (response) {
+      setEvents(response);
+    }
     setLoading(false);
   }
 
